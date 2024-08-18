@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Josh Squad</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style class="css">
+        .fa-instagram
+        {
+            font-size: 30px;
+            color: rgb(207, 11, 54);
+        }
+
+        .fa-telegram{
+            font-size: 30px;
+            color: rgb(0, 162, 255);
+        }
+
+        .fa-envelope
+        {
+            font-size: 30px;
+            color: rgb(0, 56, 160);
+        }
+
+        .fa-youtube
+        {
+            font-size: 30px;
+            color: rgb(255, 0, 0);
+        }
+
+        .fa-whatsapp
+        {
+            font-size: 30px;
+            color: rgb(27, 131, 17);
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <img src="logo.png" alt="The Josh Squad Logo" class="loading-logo">
+        <div class="loading-bar"></div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content" class="hidden">
+        <!-- Header -->
+        <header>
+            <div class="header-container">
+                <div class="logo-container">
+                <img src="logo.png" alt="The Josh Squad Logo" class="logo">
+                
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#publications">Publications</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="header-buttons">
+                    <button class="search-button" onclick="toggleSearch()">🔍</button><!-- HTML !-->
+                    
+                    
+                    
+                    <div id="search-bar" class="search-bar hidden">
+                        <input type="text" placeholder="Search...">
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+
+        <!-- Home Section -->
+    <section id="home">
+    <div class="slider">
+        <div class="slides">
+            <!-- Add as many slides as you need -->
+            <img src="image1.jpg" alt="Slide 1">
+            <img src="image2.jpg" alt="Slide 2">
+            <img src="image3.jpg" alt="Slide 3">
+            <img src="image4.jpg" alt="Slide 4">
+            <img src="image5.jpg" alt="Slide 5">
+        </div>
+    </div>
+    <div class="home-content">
+        <h1>Welcome to The Josh Squad⚔️</h1>
+        <p>India's largest automated & affordable Defence Education & Mentoring Platform</p>
+        <p>Unleash Your Full Potential: Become the Officer You Were Meant to Be.</p>
+    </div>
+    </section>
+
+
+
+<!-- Courses Section -->
+<section id="courses">
+    <h2>Our Courses</h2>
+    <div class="course-section">
+        <div class="course-item">
+            <a href="https://youtube.com/playlist?list=PLzSDe4VtSDBoKtcZnHpPqsp0HRcqy1hK0&si=jARXXxCPFlzeBr4g" class="course-card">
+                <div class="course-card-media">
+                    <figure class="course-card-image">
+                        <div class="course-card-image-wrapper">
+                            <img class="course-card-image-icon" alt="Arjuna 1.0" src="Arjuna 1.0 .jpg">
+                        </div>
+                    </figure>
+                </div>
+                <div class="course-card-description">
+                    <div class="course-card-body">
+                        <div class="course-card-description-content">
+                            <p class="course-title">Arjuna 1.0</p>
+                            <p>The ARJUN 1.0 is India's first and only kind of FREE SSB Guidance and Mentorship batch exclusively curated by the Ex NDAs and veterans alongwith Indian Armed forces officers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="course-item">
+            <a href="https://youtube.com/playlist?list=PLzSDe4VtSDBr9vtk4eSOwIN2b_r6O2FLo&si=WUztYfWQk_CXMoDP" class="course-card">
+                <div class="course-card-media">
+                    <figure class="course-card-image">
+                        <div class="course-card-image-wrapper">
+                            <img class="course-card-image-icon" alt="OLQ Series" src="OLQ Series.jpg">
+                        </div>
+                    </figure>
+                </div>
+                <div class="course-card-description">
+                    <div class="course-card-body">
+                        <div class="course-card-description-content">
+                            <p class="course-title">OLQ Series</p>
+                            <p>Welcome to our comprehensive playlist dedicated to Officer-Like Qualities (OLQ), essential for success in the SSB (Services Selection Board) interview process. Whether you're aspiring to join the armed forces or simply curious about leadership development, this series is your ultimate guide</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- Repeat for other courses -->
+    </div>
+</section>
+
+
+        <!-- Publications Section -->
+        <section id="publications">
+            <h2>Publications</h2>
+
+            <div class="publications-grid">
+            
+                <div class="publication-card">
+                    <img src="OIR.jpg" alt="Book 1" class="publication-image">
+                    <div class="publication-info">
+                        <h5>OIR MASTER GUIDE</h5>
+                        <p>Just at ₹99</p>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeDlTiBJgqbNx_v_WnqjM_Byd692tBp73XxaWX6DyUrciItGA/viewform" class="buy-button">Buy Now</a>
+                    </div>
+                </div>
+        
+                <div class="publication-card">
+                    <img src="GPE.jpg" alt="Book 2" class="publication-image">
+                    <div class="publication-info">
+                        <h5>GPE MASTER GUIDE</h5>
+                        <p>Just at ₹99</p>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSePjOI9KwJtQsh_qBsc7_phon4X0vQvwxRGQEa08waDy1W2Xg/viewform" class="buy-button">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="publication-card">
+                    <img src="TAT.jpg" alt="Book 3" class="publication-image">
+                    <div class="publication-info">
+                        <h5>TAT MASTER GUIDE</h5>
+                        <p>Just at ₹99</p>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNdBS7dQTegfJRMrOo18jO1WzMp-9jMpYcD6_J_e4f1Sqgzg/viewform?pli=1" class="buy-button">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="publication-card">
+                    <img src="WAT.jpg" alt="Book 4" class="publication-image">
+                    <div class="publication-info">
+                        <h5>WAT MASTER GUIDE</h5>
+                        <p>Just at ₹99</p>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2nOb8HFQCKCxUnyQjIVvdiGFaCzElvVa4ankABt2DBuoa0Q/viewform" class="buy-button">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="publication-card">
+                    <img src="SRT.jpg" alt="Book 5" class="publication-image">
+                    <div class="publication-info">
+                        <h5>SRT MASTER GUIDE</h5>
+                        <p>Just at ₹99</p>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGROwlfzBea20DIeYvYS8h6-cbYoIzad2zDYbGHXzOBbVwaw/viewform" class="buy-button">Buy Now</a>
+                    </div>
+                </div>
+                <!-- Add more publication cards here -->
+            </div>
+        </section>
+        
+        
+
+        <!-- Reviews Section -->
+        <section id="reviews">
+            <h2>Reviews</h2>
+            <div class="reviews-container">
+                <!-- Repeat .review-card for additional reviews -->
+                <div class="review-card">
+                    <div>
+                        <div class="review-quote" style="background-image: url('/_next/static/media/comma.fcbeaa74.webp');"></div>
+                        <div class="review-text">
+                            The Review Given By him will be written Here .
+                        </div>
+                    </div>
+                    <div class="review-details">
+                        <img src="Review.jpg" alt="Reviewer Image">
+                        <div class="reviewer-info">
+                            <div class="reviewer-name">The Name Of reviewer will be written here.</div>
+                            <div class="reviewer-meta">
+                                <div class="text-[#5A4BDA] text-xs font-semibold border-r-3 border-black">What He/She Achieved After the Course Completion any Rank Or Reccomendation.</div>
+                                <hr class="border h-4">
+                                <div class="text-[#5A4BDA] text-xs font-semibold">Examination Cracked</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Repeat .review-card for additional reviews -->
+                <div class="review-card">
+                    <div>
+                        <div class="review-quote" style="background-image: url('/_next/static/media/comma.fcbeaa74.webp');"></div>
+                        <div class="review-text">
+                            The Review Given By him/her will be written Here .
+                        </div>
+                    </div>
+                    <div class="review-details">
+                        <img src="Review2.jpg" alt="Reviewer Image">
+                        <div class="reviewer-info">
+                            <div class="reviewer-name">The Name Of reviewer will be written here.</div>
+                            <div class="reviewer-meta">
+                                <div class="text-[#5A4BDA] text-xs font-semibold border-r-3 border-black">What He/She Achieved After the Course Completion any Rank Or Reccomendation.</div>
+                                <hr class="border h-4">
+                                <div class="text-[#5A4BDA] text-xs font-semibold">Examination Cracked</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!-- About Us Section -->
+        <section id="about">
+        <div class="about-container">
+        <div class="about-text">
+            <h2>About Us</h2>
+            <h5>We are a group of NDA board outs officer cadets, along with Ex-Armed Forces Officers and Ex-SSB Assessors, taking up an initiative to provide free and affordable mentoring, guidance, and coaching for Defence exam preparation and SSB interviews. Our mission is to gift our nation with quality officers.
+            <br><br>
+            Onboard, we have a dedicated team of passionate Ex-Officers, Trainees, and TEDx speakers who bring expert SSB guidance and techniques under the master classes of Ex-SSB assessors themselves—all free of cost. Additionally, our experiences in military life help individuals to become good human beings first and foremost.</h5>
+        </div>
+        <div class="about-image">
+            <img src="logo.png" alt="About Us Image">
+        </div>
+        </div>
+        </section>
+
+
+        
+    <!-- Contact Us Section -->
+    <section id="contact">
+    <h2>Follow Us On</h2>
+    <div class="contact-buttons">
+        <a href="https://instagram.com/the.josh.squad" class="contact-button" aria-label="Instagram"><i class="fa-brands fa-instagram"></i> 
+            
+        </a>
+        <a href="https://t.me/thejoshsquad" class="contact-button" aria-label="Telegram"><i class="fa-brands fa-telegram"></i> 
+            
+        </a>
+        <a href="https://whatsapp.com/channel/0029Vag4oJ60rGiF3VzEQT3z " class="contact-button" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i> 
+        
+        </a>
+        <a href="mailto:contact@joshsquad.com" class="contact-button" aria-label="Email"><i class="fa-solid fa-envelope"></i>
+            
+        </a>
+        <a href="https://www.youtube.com/@TheJoshSquadOfficial" class="contact-button" aria-label="YouTube"><i class="fa-brands fa-youtube"></i> 
+            
+        </a>
+    </div>
+    </section>
+
+
+        <!-- Footer -->
+        <footer>
+            <h4>&copy; 2024 The Josh Squad</h4>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
